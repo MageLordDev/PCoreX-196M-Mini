@@ -1,0 +1,8 @@
+torch>=2.1
+transformers>=4.40
+tokenizers>=0.15
+datasets>=2.18
+accelerate>=0.30
+# TPU eğitimi için ayrıca (GPU'da gerekmez):
+# torch_xla   -> https://github.com/pytorch/xla#installation adresindeki
+#                TPU/torch/Python sürümüne uygun wheel ile kurulmalı
