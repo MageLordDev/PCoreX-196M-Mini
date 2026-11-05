@@ -1,5 +1,7 @@
 # TR-EN 200M — Hugging Face + TPU Uyumlu Dil Modeli
 
+# Bu modele henüz her hangi bir eğtim yapılmamıştır model ağırlıksız saf mimaridir isteyen kendi diline veya sistemine uyarlayıp eğitip yayınlamakta özgürdür, atıf yaparsanız sevinirim
+
 Türkçe + İngilizce için ~196M parametreli, decoder-only (GPT tarzı) bir dil modeli.
 Artık tam bir **Hugging Face `transformers` mimarisi**: `PreTrainedModel` tabanlı,
 `AutoModelForCausalLM` ile kayıtlı, `save_pretrained`/`push_to_hub`/`Trainer`/
